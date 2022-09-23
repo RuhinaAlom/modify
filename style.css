@@ -335,3 +335,95 @@ section {
     padding: .5rem 0;
 
 }
+
+.contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+/* .contact .row .image img {
+    flex: 1 1 35rem;
+
+} */
+
+.contact .row .image img {
+    width: 500px;
+
+
+
+
+}
+
+.contact .row.image img {
+    flex: 1 1 50rem;
+
+}
+
+.contact .row form {
+    flex: 1 1 50rem;
+    padding: 2rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .1);
+    border-radius: .5rem;
+}
+
+.contact .row form .inputBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact .row form .inputBox input,
+.contact .row form textarea {
+    width: 49%;
+    margin: 1rem 0;
+
+    font-size: 1.3rem;
+    color: #333;
+    background: #f7f7f7;
+    text-transform: none;
+
+}
+
+.contact .row form textarea {
+    height: 15rem;
+    resize: none;
+    width: 100%;
+}
+
+.contact .btn-con {
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.contact .btn-con:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.contact .btn-con:focus {
+    outline: none;
+}
+
+.contact .btn-con {
+    background-image: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(49, 196, 190, 0.75);
+}
